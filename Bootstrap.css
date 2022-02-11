@@ -34,3 +34,19 @@ img {
       font-size: 3.5rem;
     }
   }
+
+  .carousel .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item img {
+    height: fit-content;
+    width: fit-content ;
+       position: absolute;
+      object-fit:cover;
+      top: 0;
+      left: 0;
+
+
+  }
+
